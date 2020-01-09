@@ -25,9 +25,8 @@ app.get("", (req, res) => {
   res.render("index", { message });
 });
 
-app.listen(3005, () => {
+app.listen(3004, () => {
   console.log("Server is running");
 });
 
 
-//Watched up to 2:40
